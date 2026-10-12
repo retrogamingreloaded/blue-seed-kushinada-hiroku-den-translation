@@ -14,7 +14,9 @@ A complete English candidate build has now been assembled.
 - The complete build was deployed and launched successfully on a Steam Deck with RetroArch/Beetle Saturn on October 11, 2026
 - Full-game playtesting, proofreading, and manual visual QA are still in progress
 
-This is an important functional milestone, but it is **not yet a public release**.
+A ROM-free beta patch is now publicly available: **[Complete English Patch v0.1.0-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.0-beta)**.
+
+This remains a pre-release build while full-game proofreading and visual QA continue.
 
 ## Save compatibility
 
@@ -22,10 +24,12 @@ Sega Saturn backup-memory saves can be retained between translation builds when 
 
 Save states are more fragile and may be incompatible between different builds or emulator/core versions. In-game saves are strongly recommended for long-term progress.
 
-## Planned release
+## Download and patching
 
-The intended public release will contain a ROM-free patch, permitted translation data, tools, and documentation. Users will need to provide their own legally obtained Japanese game image.
+Download the recommended complete ZIP package from the [v0.1.0-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.0-beta). It contains the xdelta patch, checksum manifest, English CUE file, and tested instructions for macOS, Linux/Steam Deck, and Windows.
+
+The patch requires a legally obtained Japanese Track 01 with this SHA-256 checksum:
+
+`1a9ce56a4746320f326fcc1269442ecf1917893d0e9feaf75030e98012d88b0f`
 
 No ROM, disc image, BIOS, or unauthorized copyrighted game asset will be distributed by this repository.
-
-No release date has been announced.
