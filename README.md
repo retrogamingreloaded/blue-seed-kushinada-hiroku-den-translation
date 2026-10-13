@@ -2,11 +2,13 @@
 
 English fan translation and preservation project for **Blue Seed: Kushinada Hirokuden** on Sega Saturn.
 
+*** STILL IN BETA - EXPECT SOME ISSUES ***
+
 ## Project status
 
 A complete English candidate build has now been assembled.
 
-- 5,157 unique text entries translated
+- 5,157 unique text entries AI translated
 - Dialogue, menus, and residual game text included
 - All 79 detected interactive choice menus passed source and rebuilt-layout validation across 178 locations
 - No Japanese/CJK text residue detected by the automated post-build checks
@@ -35,7 +37,3 @@ The patch requires a legally obtained Japanese Track 01 with this SHA-256 checks
 `1a9ce56a4746320f326fcc1269442ecf1917893d0e9feaf75030e98012d88b0f`
 
 No ROM, disc image, BIOS, or unauthorized copyrighted game asset will be distributed by this repository.
-
-## Support the project
-
-If you like my work, you can [buy me a beer on Ko-fi](https://ko-fi.com/retrogamingreloaded). Thank you for supporting independent fan translation and preservation work.
