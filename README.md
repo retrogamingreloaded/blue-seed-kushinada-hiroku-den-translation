@@ -13,9 +13,10 @@ A complete English candidate build has now been assembled.
 - The rebuilt disc image boots successfully with the Beetle Saturn core
 - The complete build was deployed and launched successfully on a Steam Deck with RetroArch/Beetle Saturn on October 11, 2026
 - The October 12, 2026 beta refresh fixes 27 audited choice menus, chapter 2 text artefacts, and two missing half-width capitals
+- The October 13, 2026 beta refresh fixes the garbled Options/Pad Controls screen and its controller-button labels
 - Full-game playtesting, proofreading, and manual visual QA are still in progress
 
-A ROM-free beta patch is now publicly available: **[Complete English Patch v0.1.2-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.2-beta)**.
+A ROM-free beta patch is now publicly available: **[Complete English Patch v0.1.3-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.3-beta)**.
 
 This remains a pre-release build while full-game proofreading and visual QA continue.
 
@@ -27,7 +28,7 @@ Save states are more fragile and may be incompatible between different builds or
 
 ## Download and patching
 
-Download the recommended complete ZIP package from the [v0.1.2-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.2-beta). It contains the xdelta patch, checksum manifest, English CUE file, and tested instructions for macOS, Linux/Steam Deck, and Windows.
+Download the recommended complete ZIP package from the [v0.1.3-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.3-beta). It contains the xdelta patch, checksum manifest, English CUE file, and tested instructions for macOS, Linux/Steam Deck, and Windows.
 
 The patch requires a legally obtained Japanese Track 01 with this SHA-256 checksum:
 
