@@ -18,9 +18,11 @@ A complete English candidate build has now been assembled.
 - The October 13, 2026 beta refresh fixes the garbled Options/Pad Controls screen and its controller-button labels
 - Version 0.1.4-beta adds punctuation/font corrections, fixes embedded-command text artefacts, translates the Load Data screen and all 13 chapter-title images, and improves six chapter 2 dialogue blocks
 - The v0.1.4-beta build was deployed to Steam Deck with its installed checksum verified; confirmation of every corrected screen in-game remains part of beta playtesting
+- Version 0.1.5-beta corrects hippo-underwear references, harmonizes Yoshiki's name, fixes Kasumi Kusunoki's gender and the chapter 3 investigation dialogue, and removes stray opening apostrophes
+- The v0.1.5-beta build was deployed with its installed checksum verified and all 125 existing Blue Seed save/state hashes unchanged; further semantic proofreading remains in progress
 - Full-game playtesting, proofreading, and manual visual QA are still in progress
 
-A ROM-free beta patch is now publicly available: **[Complete English Patch v0.1.4-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.4-beta)**.
+A ROM-free beta patch is now publicly available: **[Complete English Patch v0.1.5-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.5-beta)**.
 
 This remains a pre-release build while full-game proofreading and visual QA continue.
 
@@ -32,7 +34,7 @@ Save states are more fragile and may be incompatible between different builds or
 
 ## Download and patching
 
-Download the complete ZIP package from the [v0.1.4-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.4-beta). It contains the xdelta patch, checksum manifest, English CUE file, and patching scripts/instructions for macOS, Linux/Steam Deck, and Windows. The macOS apply script has been tested against the required source and reproduces the published target checksum exactly.
+Download the complete ZIP package from the [v0.1.5-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.5-beta). It contains the xdelta patch, checksum manifest, English CUE file, and patching scripts/instructions for macOS, Linux/Steam Deck, and Windows. The macOS apply script has been tested against the required source and reproduces the published target checksum exactly.
 
 The patch requires a legally obtained Japanese Track 01 with this SHA-256 checksum:
 

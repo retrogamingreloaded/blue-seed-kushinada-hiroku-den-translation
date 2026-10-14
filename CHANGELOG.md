@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.1.5-beta — October 14, 2026
+
+- Corrected two references to hippo underwear that had been translated as elephant shorts.
+- Harmonized Yoshiki's name without English -kun/-san suffixes, as requested.
+- Corrected Kasumi Kusunoki's gender in three references; removed an invented implication that she was deceased.
+- Corrected the chapter 3 waking-up and investigation conversation: why she is in bed, how the others know her name, and who had whose background investigated.
+- Removed two stray opening apostrophes and corrected who left the document on Yoshiki's desk.
+- Updated 15 unique text IDs, preserving Japanese source columns and script controls.
+- Retains the previous font, punctuation, load-screen and interactive-choice corrections.
+
+Verification: 13 source/translation pairs pass; all 93 injected files verified against ISO readback; 79 text files, 3,159 messages and ten embedded command tails pass the glyph audit; 79 interactive choice IDs / 178 locations retain their commands and row geometry. The patch-application script reproduces the target exactly. Steam Deck installed checksum verified, content names/CUE retained, and all 125 pre-existing save/state hashes unchanged.
+
+Patched Track 01 SHA-256:
+`bc1a703c11510c55a195d73b9f38b91d5a79798ac8bef41070c8473266830ed7`
+
+The required Japanese source is unchanged. Manual semantic proofreading continues: additional errors have been identified and are not all corrected by this focused release. Specific new screens still require in-game visual confirmation. No ROM, BIOS, audio track, game-art binary, or save is distributed.
+
 ## 0.1.4-beta — October 13, 2026
 
 - Corrected Latin punctuation geometry: commas, periods, apostrophes, colons and semicolons; adjusted the capital T.
