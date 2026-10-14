@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.1.6-beta — October 14, 2026
+
+- Corrected all 24 previously confirmed remaining semantic errors; source-based review of adjacent dialogue, recurring names and item-acquisition notices expanded the update to 99 unique text IDs.
+- Restored Izumo, Kumamoto and Yubari, the missing Mount Aso reference, the Kumamoto Station clue and late-spring timing.
+- Corrected reversed subjects/objects in self-introductions, hostage threats, thanks, recognition dialogue and transfer orders; removed invented taunts and misread idioms.
+- Corrected animal-pattern collection entries and acquisition notices: Okinawa rail, serow, flying squirrel, sea otter, squirrel, falcon, giraffe, elephant, giant tortoise and others.
+- Harmonized Ryusen using the source's explicit phonetic spelling and corrected Ruri's Chinese transliteration. Yoshiki remains unchanged without -kun/-san.
+- Restored Momiji's S+1 D+1 equipment bonuses and the sunlight vulnerability explanation.
+- Fixed surplus collection chevrons, the incomplete TAC-return choice quote and the Shizuoka-shop choice wording without changing physical choice rows.
+- Corrected nearby hotel, food and investigation dialogue, including cake, kelp tea and the Chief Cabinet Secretary's title.
+- Retains all previous font, punctuation, load-screen and interactive-choice fixes.
+
+Verification: all Japanese/source columns and script controls preserved; 99 changed IDs / 101 locations checked against actual rebuilt glyph sequences and window limits; all 93 injected files verified against ISO readback. Glyph audit covers 79 text files, 3,159 messages and ten embedded tails with zero errors/warnings. All 79 interactive-choice IDs / 178 locations preserve their selection commands and row geometry. The patch-application script reconstructs the target exactly. Installed Steam Deck checksum verified, content filenames/CUE retained and all 125 pre-existing save/state hashes unchanged. The previous installed ROM was backed up before replacement.
+
+Patched Track 01 SHA-256:
+`3bf388e6d552a52773ed76e3bae300475a3a166ea68471dcd97882d44c1a8331`
+
+This closes the previous list of 24 confirmed errors, not full-game proofreading. Uncertain gameplay-rule interpretations have not been guessed. Manual review and in-game visual confirmation of every revised passage remain incomplete. Only the patch and supporting scripts/documentation are distributed; no ROM, BIOS, original audio or game-art binaries are included.
+
 ## 0.1.5-beta — October 14, 2026
 
 - Corrected two references to hippo underwear that had been translated as elephant shorts.
