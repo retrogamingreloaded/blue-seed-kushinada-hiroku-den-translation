@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.1.7-beta — October 16, 2026 — proofreading test candidate
+
+- Incorporates 1,216 current candidate correction IDs, checked at 1,382 rebuilt locations. This cumulative proofreading snapshot includes source-based meaning/idiom corrections, restored puzzle/numerical clues, names, item descriptions, apostrophes and five compact choice menus with source selector positions preserved.
+- Confirms Kazumi from the original game's pager; retains Yoshiki without honorific suffixes. The constable 大田原 is provisionally Otawara, not independently confirmed.
+- All 15 baseline source validations, 13 scenario-prefix builds and an identical repeated MES/EXE rebuild pass. All 93 injected files pass disc readback. Menu checks cover 79 IDs / 178 locations; five compact menus have extra visible-option checks in 17 locations. All 51 targeted unit tests pass.
+- The preceding 907-edit candidate passed local ordinary save → full emulator exit → cold start → load, chapter 1 load-screen and selected dialogue checks in Beetle Saturn. **The new 1,216-edit image has not been tested in-game or deployed to Steam Deck.** This is not evidence for all chapters or cross-device/state-version compatibility.
+- Local vision-model testing found hallucinated defects and a missed choice-selection issue; no model result is accepted as visual certification.
+
+Known remaining work: 2,694 model-unflagged passages need independent manual review; one name reading remains uncertain; full dialogue/choice-branch playtesting is incomplete. Final semantic approval is not granted. Published as an explicitly requested work-in-progress beta test patch, not a final release. No ROM, BIOS, original audio, game-art binary, save, private build/SCP helper or internal TODO is distributed.
+
+Patched Track 01 SHA-256:
+`e3a32fbe428c4c47c768487c86c6330530238482b68a0f150294440743271ebf`
+
 ## 0.1.6-beta — October 14, 2026
 
 - Corrected all 24 previously confirmed remaining semantic errors; source-based review of adjacent dialogue, recurring names and item-acquisition notices expanded the update to 99 unique text IDs.
