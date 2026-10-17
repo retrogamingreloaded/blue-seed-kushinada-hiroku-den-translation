@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.8-beta — October 17, 2026 — latest proofreading test candidate
+
+- Incorporates 1,541 supervised correction IDs, including dialogue, menu and text-layout fixes made after v0.1.7-beta. These are candidate edits, not a count of severe bugs.
+- The latest private build passed 48 automated checks and repeated identical MES/EXE rebuilding. The public xdelta patch was applied to the verified original Japanese Track 01 and reproduced the candidate byte for byte.
+- This exact image has not yet been tested in-game. Earlier boot, save/reload and selected dialogue checks apply to preceding candidates only.
+
+Known remaining work: 2,180 passages need independent proofreading; constable 大田原 / provisional Otawara (03188) remains uncertain. Full dialogue/choice-branch playtesting and final semantic approval are incomplete. This is a beta test patch, not a final release. No ROM, BIOS, original audio, game-art binary, save, private helper or internal TODO is distributed.
+
+Patched Track 01 SHA-256:
+`531b96c8d2b2442edd9e570cf6af52950b391becebda14088bd64d8b7a932960`
+
 ## 0.1.7-beta — October 16, 2026 — proofreading test candidate
 
 - Incorporates 1,216 current candidate correction IDs, checked at 1,382 rebuilt locations. This cumulative proofreading snapshot includes source-based meaning/idiom corrections, restored puzzle/numerical clues, names, item descriptions, apostrophes and five compact choice menus with source selector positions preserved.
