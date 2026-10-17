@@ -31,6 +31,12 @@ A ROM-free test patch is available: **[English Test Patch v0.1.7-beta](https://g
 
 This remains a pre-release build while full-game proofreading and visual QA continue.
 
+## Playtesters wanted
+
+We need volunteers to playtest the English beta and report display bugs. If you spot clipped or overlapping text, unusual glyphs, broken line breaks, or misaligned dialogue, choices, or menus, please [open a GitHub issue](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/issues/new).
+
+Please include the patch version, chapter or location, the text or screen affected, your emulator/core and version, and steps to reproduce the problem. A screenshot is helpful when available. Do not upload ROMs, BIOS files, or save data.
+
 ## Save compatibility
 
 Sega Saturn backup-memory saves can be retained between translation builds when the same RetroArch content filename and core are used. Always back up save files before replacing a build.
