@@ -4,6 +4,8 @@ English fan translation and preservation project for **Blue Seed: Kushinada Hiro
 
 *** STILL IN BETA - EXPECT SOME ISSUES ***
 
+The current build is still under review. We are looking for volunteers to test it and report any translation or display issues.
+
 ## Project status
 
 A complete English candidate build has now been assembled.
@@ -36,7 +38,7 @@ This remains a pre-release build while full-game proofreading and visual QA cont
 
 ## Playtesters wanted
 
-We need volunteers to playtest the English beta and report display bugs. If you spot clipped or overlapping text, unusual glyphs, broken line breaks, or misaligned dialogue, choices, or menus, please [open a GitHub issue](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/issues/new).
+We are looking for volunteers to playtest the English beta while our review continues. If you spot a translation error, clipped or overlapping text, unusual glyphs, broken line breaks, or misaligned dialogue, choices, or menus, please [open a GitHub issue](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/issues/new).
 
 Please include the patch version, chapter or location, the text or screen affected, your emulator/core and version, and steps to reproduce the problem. A screenshot is helpful when available. Do not upload ROMs, BIOS files, or save data.
 
