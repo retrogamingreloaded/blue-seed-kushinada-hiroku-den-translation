@@ -1,6 +1,19 @@
 # Changelog
 
-## 0.1.8-beta — October 17, 2026 — latest proofreading test candidate
+## 0.1.9-beta — October 18, 2026 — display-fix test candidate
+
+- Removes decorative outer quotation marks from 32 unique interactive-choice texts (43 source-table occurrences), without changing choice commands or layout geometry.
+- Shortens eight overlong embedded-command text tails to their original glyph-slot capacity, including the reported corrupted grass-screen dialogue.
+- Limits eight statue inscriptions to two lines to avoid fourth-line overlap; includes recent source-checked dialogue and layout corrections.
+- Static translation, glyph, choice-layout and disc-readback checks pass, and repeated MES/EXE rebuilding is byte-identical. The public xdelta patch decodes from the verified original Japanese Track 01 to the target SHA-256 below.
+- **This exact image and the reported grass and statue screens have not yet been visually retested in-game.** Earlier boot/save tests apply to preceding candidates only.
+
+Known remaining work: 2,180 model-unflagged passages still need independent proofreading; constable 大田原 / provisional Otawara (03188) remains uncertain. Full dialogue/choice-branch playtesting and final semantic approval are incomplete. This is a beta test patch, not a final release. No ROM, BIOS, original audio, game-art binary, save, private helper or internal TODO is distributed.
+
+Patched Track 01 SHA-256:
+`f975125538a0c3b4903e8231ee03913ca8905feff7e4a1f0855a1489fa03e2f7`
+
+## 0.1.8-beta — October 17, 2026 — proofreading test candidate
 
 - Incorporates 1,541 supervised correction IDs, including dialogue, menu and text-layout fixes made after v0.1.7-beta. These are candidate edits, not a count of severe bugs.
 - The latest private build passed 48 automated checks and repeated identical MES/EXE rebuilding. The public xdelta patch was applied to the verified original Japanese Track 01 and reproduced the candidate byte for byte.
