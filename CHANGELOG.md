@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.1.10-beta — October 21, 2026 — testing and review in progress
+
+- Incorporates the current source-checked proofreading snapshot, with 1,742 documented correction IDs. Recent fixes cover dialogue meaning, names and item labels, Ginza/hotel investigation, pager clues, time limits, punctuation and choices. English map labels and previous display fixes are retained.
+- All 47 required build checks pass; two separate review-completeness checks remain advisory for this beta. Repeated MES/EXE rebuilding is byte-identical, all 2,028 text IDs changed since the pre-review baseline pass glyph/window checks, and the 79 menus / 178 locations retain their commands and row geometry.
+- The public patch and macOS/Linux application script reconstruct the exact target from the verified original Japanese Track 01. Windows execution has not been tested for this update.
+- This exact image starts successfully in RetroArch 1.22.2 / Beetle Saturn on macOS. Native captures show the opening sequence and SEGA splash after 30 and 150 seconds, followed by a clean emulator exit. Full-game dialogue, choice branches, visual review and save/reload checks remain in progress.
+
+**Volunteers wanted:** please report translation or display bugs with patch version, location, emulator/core, reproduction steps and a screenshot when possible.
+
+Known remaining work: 1,899 model-unflagged passages still need independent review; some older decisions need rechecking after subsequent edits. The constable's name reading (03188, provisional Otawara) remains uncertain. This is a work-in-progress beta test patch. No ROM, BIOS, audio, game-art binary, save, private helper or internal TODO is distributed.
+
+Patched Track 01 SHA-256:
+6ea553ea987a794b90010bdee8fb8eba101f9dcb17e1b64738df0e3ed269fd1f
+
 ## 0.1.9-beta — October 18, 2026 — display-fix test candidate
 
 - Removes decorative outer quotation marks from 32 unique interactive-choice texts (43 source-table occurrences), without changing choice commands or layout geometry.

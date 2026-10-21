@@ -4,7 +4,7 @@ English fan translation and preservation project for **Blue Seed: Kushinada Hiro
 
 *** STILL IN BETA - EXPECT SOME ISSUES ***
 
-The current build is still under review. We are looking for volunteers to test it and report any translation or display issues.
+Testing and translation review of the current build are in progress. We are looking for volunteers to test it and report any translation or display issues.
 
 ## Project status
 
@@ -29,10 +29,13 @@ A complete English candidate build has now been assembled.
 - The v0.1.8-beta patch reproduces its target build byte for byte from the verified Japanese source. This exact image has not yet been tested in-game; earlier save/reload and chapter 1 load-screen checks concern a preceding candidate
 - Version 0.1.9-beta removes decorative quotation marks from 32 unique interactive-choice texts, shortens eight embedded-command tails to their available glyph slots (including the reported grass-screen artefact), and limits eight statue inscriptions to two lines. Recent source-checked dialogue and layout corrections are also included
 - The v0.1.9-beta patch reproduces its target build byte for byte from the verified Japanese source. Static reconstruction, glyph, choice-layout and disc-readback checks pass, but this exact image and the reported screens still need visual in-game confirmation
-- 2,180 model-unflagged passages still need independent proofreading; one constable's name reading remains provisional. Final semantic approval and full-game playtesting are not complete
+- Version 0.1.10-beta includes the current proofreading snapshot: 1,742 documented correction IDs, further source-checked dialogue and item-name corrections, English map labels, investigation/pager clues and compact numeric choices
+- Its full xdelta patch and macOS/Linux application script reproduce the target image byte for byte from the required Japanese Track 01. All 2,028 text IDs changed since the pre-review baseline pass rebuilt glyph/window checks; the 79 menus / 178 locations retain their commands and layout
+- This exact image starts successfully in RetroArch 1.22.2 / Beetle Saturn on macOS: native emulator captures show the opening sequence and SEGA splash after 30 and 150 seconds, with a clean exit. Full-game testing, visual review and save/reload checks remain in progress
+- 1,899 model-unflagged passages still need independent proofreading; some earlier decisions also need rechecking after subsequent edits. One constable's name reading remains provisional. Final semantic approval and full-game playtesting are not complete
 - Full-game playtesting, proofreading, and manual visual QA are still in progress
 
-A ROM-free test patch is available: **[English Test Patch v0.1.9-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.9-beta)**. The preceding [v0.1.8-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.8-beta) remains available separately.
+A ROM-free test patch is available: **[English Test Patch v0.1.10-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.10-beta)**. The preceding [v0.1.9-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.9-beta) remains available separately.
 
 This remains a pre-release build while full-game proofreading and visual QA continue.
 
@@ -50,7 +53,7 @@ Save states are more fragile and may be incompatible between different builds or
 
 ## Download and patching
 
-Download the ZIP package from the [v0.1.9-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.9-beta). It contains the xdelta patch, checksum manifest, English CUE file, and patching scripts/instructions for macOS, Linux/Steam Deck, and Windows. The xdelta patch has been decoded against the required Japanese source and reproduces the published target checksum exactly. This full patch requires the Japanese source, not a previous English BIN. It remains a work-in-progress test candidate, not a final-quality release.
+Download the ZIP package from the [v0.1.10-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.10-beta). It contains the xdelta patch, checksum manifest, English CUE file, and patching scripts/instructions for macOS, Linux/Steam Deck, and Windows. The xdelta patch has been decoded against the required Japanese source and reproduces the published target checksum exactly. This full patch requires the Japanese source, not a previous English BIN. It remains a work-in-progress test candidate, not a final-quality release.
 
 The patch requires a legally obtained Japanese Track 01 with this SHA-256 checksum:
 
