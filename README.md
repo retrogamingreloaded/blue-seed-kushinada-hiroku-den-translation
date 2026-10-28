@@ -8,36 +8,18 @@ Testing and translation review of the current build are in progress. We are look
 
 ## Project status
 
-A complete English candidate build has now been assembled.
+The latest candidate includes 5,157 ordinary text entries and ten embedded text tails, with 2,868 documented ordinary correction IDs and two separately maintained embedded-text corrections.
 
-- 5,157 unique text entries AI translated
-- Dialogue, menus, and residual game text included
-- All 79 detected interactive choice menus passed source and rebuilt-layout validation across 178 locations
-- Automated checks cover dialogue glyph bounds, embedded text commands, and interactive-choice layout; they do not replace manual proofreading
-- The rebuilt disc image boots successfully with the Beetle Saturn core
-- The complete build was deployed and launched successfully on a Steam Deck with RetroArch/Beetle Saturn on October 11, 2026
-- The October 12, 2026 beta refresh fixes 27 audited choice menus, chapter 2 text artefacts, and two missing half-width capitals
-- The October 13, 2026 beta refresh fixes the garbled Options/Pad Controls screen and its controller-button labels
-- Version 0.1.4-beta adds punctuation/font corrections, fixes embedded-command text artefacts, translates the Load Data screen and all 13 chapter-title images, and improves six chapter 2 dialogue blocks
-- The v0.1.4-beta build was deployed to Steam Deck with its installed checksum verified; confirmation of every corrected screen in-game remains part of beta playtesting
-- Version 0.1.5-beta corrects hippo-underwear references, harmonizes Yoshiki's name, fixes Kasumi Kusunoki's gender and the chapter 3 investigation dialogue, and removes stray opening apostrophes
-- The v0.1.5-beta build was deployed with its installed checksum verified and all 125 existing Blue Seed save/state hashes unchanged; further semantic proofreading remains in progress
-- Version 0.1.6-beta corrects all 24 previously confirmed remaining errors and additional source-verified issues, updating 99 unique text IDs: place names, omitted clues/stats, animal names, Ryusen's name, reversed speakers/objects, idioms, hotel/food dialogue and two interactive menus
-- The v0.1.6-beta build was deployed to Steam Deck with the same content filenames and its installed checksum verified; all 125 existing save/state hashes remained unchanged
-- Version 0.1.7-beta incorporates the current supervised proofreading snapshot: 1,216 candidate correction IDs / 1,382 rebuilt locations, including source-based meaning, item, name, puzzle and compact-choice fixes
-- Version 0.1.8-beta incorporates the latest supervised proofreading snapshot: 1,541 correction IDs, including further dialogue, menu and text-layout fixes after v0.1.7-beta
-- The v0.1.8-beta patch reproduces its target build byte for byte from the verified Japanese source. This exact image has not yet been tested in-game; earlier save/reload and chapter 1 load-screen checks concern a preceding candidate
-- Version 0.1.9-beta removes decorative quotation marks from 32 unique interactive-choice texts, shortens eight embedded-command tails to their available glyph slots (including the reported grass-screen artefact), and limits eight statue inscriptions to two lines. Recent source-checked dialogue and layout corrections are also included
-- The v0.1.9-beta patch reproduces its target build byte for byte from the verified Japanese source. Static reconstruction, glyph, choice-layout and disc-readback checks pass, but this exact image and the reported screens still need visual in-game confirmation
-- Version 0.1.10-beta includes the current proofreading snapshot: 1,742 documented correction IDs, further source-checked dialogue and item-name corrections, English map labels, investigation/pager clues and compact numeric choices
-- Its full xdelta patch and macOS/Linux application script reproduce the target image byte for byte from the required Japanese Track 01. All 2,028 text IDs changed since the pre-review baseline pass rebuilt glyph/window checks; the 79 menus / 178 locations retain their commands and layout
-- This exact image starts successfully in RetroArch 1.22.2 / Beetle Saturn on macOS: native emulator captures show the opening sequence and SEGA splash after 30 and 150 seconds, with a clean exit. Full-game testing, visual review and save/reload checks remain in progress
-- 1,899 model-unflagged passages still need independent proofreading; some earlier decisions also need rechecking after subsequent edits. One constable's name reading remains provisional. Final semantic approval and full-game playtesting are not complete
-- Full-game playtesting, proofreading, and manual visual QA are still in progress
+- Review records now cover all 4,384 model-unflagged passages and 783 adjudicated passages. This completes that review-record backlog, not final semantic approval. Constable 大田原, provisionally Otawara (03188), remains an uncertain reading.
+- Map-label fixes restore clipped final letters, closing parentheses and arrow clearance. All 385 instances (35 labels across 11 maps) pass raster/bounds checks. Large Japanese background lettering is not translated by this change.
+- All 50 build stages pass, including repeatable MES/EXE rebuilding, 104 injected-file readbacks and glyph/window checks covering 3,021 proof IDs at 3,467 rebuilt locations. All 79 detected interactive menus / 178 locations retain selection commands and row geometry. The 97 tool unit tests pass.
+- The full xdelta patch and macOS application script reproduce the target byte for byte from the verified original Japanese Track 01. Windows execution has not been tested for this update.
+- This candidate was deployed to Steam Deck on October 25, 2026 with its installed checksum verified. This exact image has not received a new emulator startup or full-game validation; older startup checks concern earlier candidates.
+- Full-game playtesting, dialogue branches, visual review and save/reload checks remain to be completed. Automated checks and complete review records do not certify every translation or screen.
 
-A ROM-free test patch is available: **[English Test Patch v0.1.10-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.10-beta)**. The preceding [v0.1.9-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.9-beta) remains available separately.
+A ROM-free test patch is available: **[English Test Patch v0.1.11-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.11-beta)**. The preceding [v0.1.10-beta](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.10-beta) remains available separately.
 
-This remains a pre-release build while full-game proofreading and visual QA continue.
+This remains a pre-release build while full-game proofreading and visual QA continue. See the [changelog](CHANGELOG.md) for earlier updates.
 
 ## Playtesters wanted
 
@@ -53,7 +35,7 @@ Save states are more fragile and may be incompatible between different builds or
 
 ## Download and patching
 
-Download the ZIP package from the [v0.1.10-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.10-beta). It contains the xdelta patch, checksum manifest, English CUE file, and patching scripts/instructions for macOS, Linux/Steam Deck, and Windows. The xdelta patch has been decoded against the required Japanese source and reproduces the published target checksum exactly. This full patch requires the Japanese source, not a previous English BIN. It remains a work-in-progress test candidate, not a final-quality release.
+Download the ZIP package from the [v0.1.11-beta release page](https://github.com/retrogamingreloaded/blue-seed-kushinada-hiroku-den-translation/releases/tag/v0.1.11-beta). It contains the xdelta patch, checksum manifest, English CUE file, and patching scripts/instructions for macOS, Linux/Steam Deck, and Windows. The xdelta patch has been decoded against the required Japanese source and reproduces the published target checksum exactly. This full patch requires the Japanese source, not a previous English BIN. It remains a work-in-progress test candidate, not a final-quality release.
 
 The patch requires a legally obtained Japanese Track 01 with this SHA-256 checksum:
 

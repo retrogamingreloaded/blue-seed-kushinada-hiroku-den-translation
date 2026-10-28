@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.11-beta — October 28, 2026 — testing and review in progress
+
+- Incorporates the supervised proofreading snapshot with 2,868 documented ordinary correction IDs and two separately maintained embedded-text corrections. Review records cover all 4,384 model-unflagged and 783 adjudicated passages (5,157 ordinary entries plus ten embedded tails). Review-record completeness is not final semantic approval; constable 大田原, provisionally Otawara (03188), remains uncertain.
+- Repairs clipped map-label final letters and closing parentheses, preserving arrow clearance. All 385 instances (35 labels across 11 maps) pass raster/bounds checks; decoded label previews were inspected, not captured in-game. Large Japanese map-background lettering is outside this change.
+- All 50 build stages pass, including deterministic MES/EXE reconstruction, 104 injected-file readbacks, glyph/window checks for 3,021 proof IDs at 3,467 rebuilt locations and selection-command/geometry checks for 79 menus / 178 locations. All 97 tool unit tests pass.
+- The public full patch and macOS application script reconstruct the exact target from the verified original Japanese Track 01. Windows execution has not been tested for this update.
+- This candidate was deployed to Steam Deck on October 25 with its installed checksum verified. This exact image has not received a new emulator startup or full-game validation. Earlier boot checks concern earlier candidates. Full-game dialogue, choices, visual and save/reload testing remain to be completed.
+
+**Testing and translation review are in progress. Volunteers wanted:** please report translation or display bugs with patch version, location, emulator/core, reproduction steps and a screenshot when possible. This is not a final release.
+
+No ROM, BIOS, audio, game-art binary, save, private helper or internal TODO is distributed.
+
+Patched Track 01 SHA-256:
+`f0d899dc853f1ed55497d4860f2b7d59755ac85e25160cda27932bd66a85bc3e`
+
 ## 0.1.10-beta — October 21, 2026 — testing and review in progress
 
 - Incorporates the current source-checked proofreading snapshot, with 1,742 documented correction IDs. Recent fixes cover dialogue meaning, names and item labels, Ginza/hotel investigation, pager clues, time limits, punctuation and choices. English map labels and previous display fixes are retained.
