@@ -2,7 +2,7 @@
 
 English fan translation and preservation project for **Blue Seed: Kushinada Hirokuden** on Sega Saturn.
 
-*** STILL IN BETA - EXPECT SOME ISSUES ***
+*** STILL IN BETA - EXPECT SOME ISSUES IN TRANSLATION ***
 
 Testing and translation review of the current build are in progress. We are looking for volunteers to test it and report any translation or display issues.
 
