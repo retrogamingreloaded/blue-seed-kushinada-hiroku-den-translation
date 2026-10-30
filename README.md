@@ -41,4 +41,24 @@ The patch requires a legally obtained Japanese Track 01 with this SHA-256 checks
 
 `1a9ce56a4746320f326fcc1269442ecf1917893d0e9feaf75030e98012d88b0f`
 
+### Windows patching — untested
+
+**This Windows procedure has not been tested: the maintainer does not have a Windows PC. Windows testers are welcome to report whether it works or any problems encountered.**
+
+1. Download and extract `blue-seed-english-v0.1.11-beta.zip` from the release page. Keep the extracted files together; do not run the script from inside the ZIP.
+2. Download an appropriate Windows **xdelta3** binary from the [official xdelta releases](https://github.com/jmacd/xdelta/releases). Extract it and place the executable beside `apply-patch.ps1`, naming it `xdelta3.exe` if necessary. Alternatively, make `xdelta3.exe` available on your PATH.
+3. Keep your original Japanese Track 01 and all original audio tracks 02–29 together, with their original filenames. Use the Japanese source whose checksum is shown above, not a previous English build. Back up your saves before updating.
+4. Open PowerShell in the extracted patch folder, or change to it with the first command below. Replace both example paths with your own paths, keeping the quotes:
+
+```powershell
+cd "C:\Games\blue-seed-english-v0.1.11-beta"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\apply-patch.ps1 "D:\Games\Blue Seed - Kushinada Hirokuden (Japan) (Track 01).bin"
+```
+
+The execution-policy option applies only to that PowerShell process; it does not permanently change your Windows settings. Only run the script from the trusted release package.
+
+The script is designed to verify the source and reconstructed output checksums and require all original audio tracks. It creates `Blue Seed - Complete English (Track 01).bin` and `Blue Seed - Complete English.cue` beside the Japanese source. It refuses to overwrite an existing English BIN, CUE or partial output; use a separate folder containing your original Japanese tracks if an older English build is already present. Do not delete your saves.
+
+After a successful patch, open **`Blue Seed - Complete English.cue`** in your Saturn emulator, not the BIN or xdelta file. Keep all original audio tracks beside it.
+
 No ROM, disc image, BIOS, or unauthorized copyrighted game asset will be distributed by this repository.
