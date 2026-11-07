@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.12-beta — November 7, 2026 — testing and review in progress
+
+- Standardizes card-gain notices and removes decorative quotes around card names in tutorials and team-attack instructions. The collection's 30 animal labels already use plain names, and the current catalog has no Japanese honorific suffixes.
+- Removes the stray bridge glyph by dropping a stale reference to an original blank glyph without changing the dialogue or portrait command. Corrects a dialogue indent and two punctuation issues.
+- Uses Ushitora consistently and explains it as northeast, between the Ox and Tiger zodiac signs.
+- Updates 38 text IDs and changes only 15 disc files relative to v0.1.11-beta. Automated glyph/window, choice and disc readback checks pass. This candidate has not been visually retested in-game.
+- The ROM-free xdelta patch reproduces the target exactly from the original Japanese Track 01. The macOS application script passes; Windows is untested because the maintainer has no Windows PC.
+
+Patched Track 01 SHA-256:
+`487284da9dad8072c772079fad56ee8b99f05cf60da2b171eaf8ae19f002b633`
+
 ## 0.1.11-beta — October 28, 2026 — testing and review in progress
 
 - Incorporates the supervised proofreading snapshot with 2,868 documented ordinary correction IDs and two separately maintained embedded-text corrections. Review records cover all 4,384 model-unflagged and 783 adjudicated passages (5,157 ordinary entries plus ten embedded tails). Review-record completeness is not final semantic approval; constable 大田原, provisionally Otawara (03188), remains uncertain.
